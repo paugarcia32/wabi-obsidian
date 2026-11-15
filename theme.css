@@ -1,0 +1,263 @@
+/*
+ * Wabi for Obsidian, in dark and light.
+ * Generated from palette/palette.json by generator/build.js. Do not edit by hand.
+ */
+
+/* ---- Wabi Dark ---- */
+.theme-dark {
+  /* Base scale: Obsidian derives most backgrounds, borders and text from these. */
+  --color-base-00: #1b1a18;
+  --color-base-05: #23221f;
+  --color-base-10: #23221f;
+  --color-base-20: #1b1a18;
+  --color-base-25: #2e2c28;
+  --color-base-30: #3b3934;
+  --color-base-35: #3b3934;
+  --color-base-40: #4d4a44;
+  --color-base-50: #8a877d;
+  --color-base-60: #a19e94;
+  --color-base-70: #c8c5b9;
+  --color-base-100: #e8e6dc;
+
+  /* Extended palette */
+  --color-red: #d16a6f;
+  --color-red-rgb: 209, 106, 111;
+  --color-orange: #d97757;
+  --color-orange-rgb: 217, 119, 87;
+  --color-yellow: #d5a65e;
+  --color-yellow-rgb: 213, 166, 94;
+  --color-green: #99a874;
+  --color-green-rgb: 153, 168, 116;
+  --color-cyan: #82aa9c;
+  --color-cyan-rgb: 130, 170, 156;
+  --color-blue: #7fa3cc;
+  --color-blue-rgb: 127, 163, 204;
+  --color-purple: #ae92b8;
+  --color-purple-rgb: 174, 146, 184;
+  --color-pink: #c2a8cb;
+  --color-pink-rgb: 194, 168, 203;
+
+  /* Accent */
+  --color-accent: #d97757;
+  --color-accent-1: #e58d6f;
+  --color-accent-2: #e58d6f;
+  --interactive-accent: #d97757;
+  --interactive-accent-hover: #e58d6f;
+  --text-on-accent: #1b1a18;
+
+  /* Surfaces: sidebars share the editor background; only the divider separates them. */
+  --background-primary: #1b1a18;
+  --background-primary-alt: #23221f;
+  --background-secondary: #1b1a18;
+  --background-secondary-alt: #23221f;
+  --background-modifier-border: #3b3934;
+  --background-modifier-border-hover: #4d4a44;
+  --background-modifier-border-focus: #d97757;
+  --background-modifier-hover: rgba(161, 158, 148, 0.12);
+  --background-modifier-active-hover: rgba(217, 119, 87, 0.15);
+  --background-modifier-error: #d16a6f;
+  --background-modifier-success: #99a874;
+  --titlebar-background: #1b1a18;
+  --titlebar-background-focused: #1b1a18;
+  --divider-color: #2e2c28;
+
+  /* Text */
+  --text-normal: #e8e6dc;
+  --text-muted: #a19e94;
+  --text-faint: #8a877d;
+  --text-accent: #d97757;
+  --text-accent-hover: #e58d6f;
+  --text-error: #d16a6f;
+  --text-warning: #d5a65e;
+  --text-success: #99a874;
+  --text-selection: rgba(217, 119, 87, 0.2);
+  --text-highlight-bg: rgba(213, 166, 94, 0.25);
+  --text-highlight-bg-active: rgba(217, 119, 87, 0.35);
+  --caret-color: #d97757;
+
+  /* Headings */
+  --h1-color: #d97757;
+  --h2-color: #faf9f5;
+  --h3-color: #faf9f5;
+  --h4-color: #faf9f5;
+  --h5-color: #c8c5b9;
+  --h6-color: #c8c5b9;
+  --inline-title-color: #faf9f5;
+
+  /* Links and tags */
+  --link-color: #7fa3cc;
+  --link-color-hover: #98b7d9;
+  --link-external-color: #7fa3cc;
+  --link-external-color-hover: #98b7d9;
+  --link-unresolved-color: #a19e94;
+  --link-unresolved-decoration-color: rgba(161, 158, 148, 0.4);
+  --tag-color: #82aa9c;
+  --tag-color-hover: #9abfb1;
+  --tag-background: rgba(130, 170, 156, 0.1);
+  --tag-background-hover: rgba(130, 170, 156, 0.18);
+  --tag-border-color: rgba(130, 170, 156, 0.2);
+
+  /* Blocks */
+  --blockquote-border-color: #d97757;
+  --hr-color: #3b3934;
+  --checkbox-color: #d97757;
+  --checkbox-color-hover: #e58d6f;
+  --checkbox-marker-color: #1b1a18;
+  --checkbox-border-color: #8a877d;
+  --list-marker-color: #a19e94;
+  --list-marker-color-hover: #d97757;
+  --table-border-color: #3b3934;
+  --table-header-background: #23221f;
+
+  /* Code */
+  --code-background: #23221f;
+  --code-normal: #e8e6dc;
+  --code-comment: #8a877d;
+  --code-function: #7fa3cc;
+  --code-important: #d97757;
+  --code-keyword: #d97757;
+  --code-operator: #c8c5b9;
+  --code-property: #c8c5b9;
+  --code-punctuation: #a19e94;
+  --code-string: #99a874;
+  --code-tag: #d97757;
+  --code-value: #ae92b8;
+
+  /* Graph view */
+  --graph-node: #a19e94;
+  --graph-node-unresolved: #8a877d;
+  --graph-node-focused: #d97757;
+  --graph-node-tag: #82aa9c;
+  --graph-node-attachment: #d5a65e;
+  --graph-line: #3b3934;
+}
+
+/* ---- Wabi Light ---- */
+.theme-light {
+  /* Base scale: Obsidian derives most backgrounds, borders and text from these. */
+  --color-base-00: #faf9f5;
+  --color-base-05: #f2f0e8;
+  --color-base-10: #f2f0e8;
+  --color-base-20: #faf9f5;
+  --color-base-25: #e8e6dc;
+  --color-base-30: #dcd9cd;
+  --color-base-35: #dcd9cd;
+  --color-base-40: #c9c5b8;
+  --color-base-50: #6d6a63;
+  --color-base-60: #5f5c55;
+  --color-base-70: #45433e;
+  --color-base-100: #2b2a27;
+
+  /* Extended palette */
+  --color-red: #b0464f;
+  --color-red-rgb: 176, 70, 79;
+  --color-orange: #ab5134;
+  --color-orange-rgb: 171, 81, 52;
+  --color-yellow: #8f661c;
+  --color-yellow-rgb: 143, 102, 28;
+  --color-green: #5c703e;
+  --color-green-rgb: 92, 112, 62;
+  --color-cyan: #3d7566;
+  --color-cyan-rgb: 61, 117, 102;
+  --color-blue: #3e6b99;
+  --color-blue-rgb: 62, 107, 153;
+  --color-purple: #7c5c8c;
+  --color-purple-rgb: 124, 92, 140;
+  --color-pink: #684b77;
+  --color-pink-rgb: 104, 75, 119;
+
+  /* Accent */
+  --color-accent: #ab5134;
+  --color-accent-1: #9a4529;
+  --color-accent-2: #9a4529;
+  --interactive-accent: #ab5134;
+  --interactive-accent-hover: #9a4529;
+  --text-on-accent: #faf9f5;
+
+  /* Surfaces: sidebars share the editor background; only the divider separates them. */
+  --background-primary: #faf9f5;
+  --background-primary-alt: #f2f0e8;
+  --background-secondary: #faf9f5;
+  --background-secondary-alt: #f2f0e8;
+  --background-modifier-border: #dcd9cd;
+  --background-modifier-border-hover: #c9c5b8;
+  --background-modifier-border-focus: #ab5134;
+  --background-modifier-hover: rgba(95, 92, 85, 0.12);
+  --background-modifier-active-hover: rgba(171, 81, 52, 0.15);
+  --background-modifier-error: #b0464f;
+  --background-modifier-success: #5c703e;
+  --titlebar-background: #faf9f5;
+  --titlebar-background-focused: #faf9f5;
+  --divider-color: #e8e6dc;
+
+  /* Text */
+  --text-normal: #2b2a27;
+  --text-muted: #5f5c55;
+  --text-faint: #6d6a63;
+  --text-accent: #ab5134;
+  --text-accent-hover: #9a4529;
+  --text-error: #b0464f;
+  --text-warning: #8f661c;
+  --text-success: #5c703e;
+  --text-selection: rgba(171, 81, 52, 0.2);
+  --text-highlight-bg: rgba(143, 102, 28, 0.25);
+  --text-highlight-bg-active: rgba(171, 81, 52, 0.35);
+  --caret-color: #ab5134;
+
+  /* Headings */
+  --h1-color: #ab5134;
+  --h2-color: #141413;
+  --h3-color: #141413;
+  --h4-color: #141413;
+  --h5-color: #45433e;
+  --h6-color: #45433e;
+  --inline-title-color: #141413;
+
+  /* Links and tags */
+  --link-color: #3e6b99;
+  --link-color-hover: #305982;
+  --link-external-color: #3e6b99;
+  --link-external-color-hover: #305982;
+  --link-unresolved-color: #5f5c55;
+  --link-unresolved-decoration-color: rgba(95, 92, 85, 0.4);
+  --tag-color: #3d7566;
+  --tag-color-hover: #2f6155;
+  --tag-background: rgba(61, 117, 102, 0.1);
+  --tag-background-hover: rgba(61, 117, 102, 0.18);
+  --tag-border-color: rgba(61, 117, 102, 0.2);
+
+  /* Blocks */
+  --blockquote-border-color: #ab5134;
+  --hr-color: #dcd9cd;
+  --checkbox-color: #ab5134;
+  --checkbox-color-hover: #9a4529;
+  --checkbox-marker-color: #faf9f5;
+  --checkbox-border-color: #6d6a63;
+  --list-marker-color: #5f5c55;
+  --list-marker-color-hover: #ab5134;
+  --table-border-color: #dcd9cd;
+  --table-header-background: #f2f0e8;
+
+  /* Code */
+  --code-background: #f2f0e8;
+  --code-normal: #2b2a27;
+  --code-comment: #6d6a63;
+  --code-function: #3e6b99;
+  --code-important: #ab5134;
+  --code-keyword: #ab5134;
+  --code-operator: #45433e;
+  --code-property: #45433e;
+  --code-punctuation: #5f5c55;
+  --code-string: #5c703e;
+  --code-tag: #ab5134;
+  --code-value: #7c5c8c;
+
+  /* Graph view */
+  --graph-node: #5f5c55;
+  --graph-node-unresolved: #6d6a63;
+  --graph-node-focused: #ab5134;
+  --graph-node-tag: #3d7566;
+  --graph-node-attachment: #8f661c;
+  --graph-line: #dcd9cd;
+}
+
